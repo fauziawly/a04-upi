@@ -1,4 +1,210 @@
 body {
-  margin: 0;
-  font-family: "Ubuntu";
-}  
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+/* Sarah Agustin */
+header {
+    background-color: #033F63;
+
+    /*Fauzia Awalya */
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-text {
+    color: #FAF9F9;
+    font-size: 25px;
+    font-style: bold;
+    text-shadow: black;
+    padding: 5px;
+}
+
+/* Bintang */
+.top-wrapper {
+    background: rgba(0, 0, 0, .20) url('https://www.hamiltonchn.org/wp-content/uploads/2020/09/Virtual-Learning-2-768x377.jpg');
+    background-blend-mode: darken;
+    background-size:cover;
+    text-align: center;
+    color:#F2F2F2 ;
+    padding: 180px 0 100px 0;
+
+}
+.ppp {
+  font-size: 15px; 
+  margin-bottom:5px;
+}
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.container {max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+    color:#F2F2F2;
+  }
+  .tentangkami {
+      background-color: #52AB98;
+      color:#F2F2F2;
+      text-decoration: none;
+  }
+  .syaratdaftar {
+    background-color:#52AB98;
+    color:#F2F2F2;
+    text-decoration: none;
+  }
+  .daftarsekarang {
+      background-color: #52AB98;
+      color:#F2F2F2;
+      text-decoration: none;
+  }
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: black;
+    
+  }
+  .btn:hover {
+      opacity: 100%;
+  }
+
+/* Puja Fauzia Rizqita */
+
+h1 {
+    text-align: center;
+	color:#2B6777;
+}
+
+.menu {
+    margin-left: 119px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+	text-align:center;
+	line-height:150px;
+    background-color:#C8D8E4;
+	color:#2B6777;
+    border-radius:100%;
+}
+
+/* Muhammad Rayhan */
+* {
+    box-sizing: border-box;
+  }
+  
+  .syarat-pendaftaran {
+    background-color: #FFF;
+    color: #2B6777;
+    height: 340px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .syaratDaftar-title {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10px
+  }
+  
+  .syaratDaftar-desc {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .syaratDaftar-desc img {
+    opacity: 1;
+    display: block;
+    height: 200px;
+    width: 200px;
+    float: left;
+
+    /* Fauzia P Awalya */
+    animation-name: animasi;
+    animation-duration: 4s;
+  
+  }
+  
+  @keyframes animasi {
+   from{opacity: 0;}
+   to{opacity: 1;}   
+  }
+  .syaratDaftar-list {
+    display: block;
+    float: right;
+  }
+  
+  .syaratDaftar-desc li {
+    font-size: 15px;
+    text-align: left;
+    padding-top: 5px;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .pendaftaran {
+    background-color: #f2f2f2;
+    height: 130px;
+    text-align: center;
+    color: #2B6777;
+    display: column;
+    margin: auto;
+  }
+  
+  .pendaftaran h3 {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .btn-daftar {
+    color: #FFF;
+    background-color: rgba(82, 171, 152, 0.8);
+    border: none;
+    height: 40px;
+    width: 200px;
+    box-shadow: 0 4px rgb(0 0 0 / 0.1);
+    letter-spacing: 0.5px;
+  }
+  
+  .btn-daftar:hover {
+    background-color: rgba(82, 171, 152, 1);
+    cursor: pointer;
+  }
+
+  /* Sarah Agustin */
+footer {
+    background-color: #033F63;
+
+    /*Fauzia Awalya */
+    height: 65px;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    
+}
+.text-footer {
+    color: #FAF9F9;
+    font-size: 25px;
+    font-style: bold;
+    text-shadow: black;
+    padding: 5px;  
+}
