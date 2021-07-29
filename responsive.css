@@ -1,0 +1,29 @@
+/* Fauzia P Awalya */
+@media all and (max-width: 1000px) {
+    .content {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .content {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .tentangkami {
+        margin-bottom: 10px;
+    }
+}
